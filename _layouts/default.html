@@ -122,10 +122,11 @@ ga('send', 'pageview');
 <div class="main-content">
     {{ content }}
 </div>
-
+	
+	<!--
 {% if site.mailchimp-list %}
 <!-- Bottom Alert Bar
-================================================== -->
+================================================== 
 <div class="alertbar">
 	<div class="container text-center">
 		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
@@ -142,7 +143,7 @@ ga('send', 'pageview');
 </div>
 
 <!-- Categories Jumbotron
-================================================== -->
+================================================== 
 <div class="jumbotron fortags">
 	<div class="d-md-flex h-100">
 		<div class="col-md-4 transpdark align-self-center text-center h-100">
@@ -165,18 +166,18 @@ ga('send', 'pageview');
 		</div>
 	</div>
 </div>
-
+-->
 <!-- Begin Footer
 ================================================== -->
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+            <div class="col-md-12 col-sm-12 text-center text-lg-center">
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
-            </div>
+            <!--<div class="col-md-6 col-sm-6 text-center text-lg-right">    
+                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a>
+            </div>-->
         </div>
     </div>
 </footer>
